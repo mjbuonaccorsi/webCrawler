@@ -58,7 +58,7 @@ public class WebCrawlerImpl implements WebCrawler {
 	}
 	
 	public void printResults() {
-		printHashSet("",crawlResult.getVisitedPages());
+		printHashSet("Success",crawlResult.getVisitedPages());
 		printHashSet("\nSkipped", crawlResult.getSkippedPages());
 		printHashSet("\nError", crawlResult.getErrorPages());		
 	}
